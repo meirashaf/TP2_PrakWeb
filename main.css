@@ -1,0 +1,303 @@
+@font-face {
+	font-family: "Manjari";
+	src: url(Manjari-Regular.ttf);
+    font-weight: lighter;
+ }
+
+*{
+	font-family: "Manjari";
+} 
+
+.food{
+    color: black;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+	margin:0;
+	padding:0;
+}
+
+nav{
+    position: sticky;
+    display: block;
+    top: 0;
+    list-style-type: none;
+    font-size: 15px;
+    background-color: #DE82AE;
+    width: 100%;
+    height: 40px;
+    z-index: 1;
+}
+
+.nav1 li{
+    display: inline;
+    float: left;
+    line-height:40px;
+}
+
+#navy li, a{
+    display: inline-block;
+    margin-left: 25px;
+    color: #EFDCE6; 
+    text-decoration: none;	
+}
+
+a#navy:hover, a#navy:active{
+    cursor: pointer;
+    color: white; 
+}
+
+.container {
+    display: flex;
+    height: fit-content;
+    margin: 0;
+    flex-direction: column;
+    text-align: center;
+    min-height: 50px;
+    font-size: 50px;
+    width: 100%;
+}
+
+
+.box-1{
+    background-color: #B8366C;
+    width: 100%; 
+}
+
+.box-1 h3{
+    color: white; 
+    font-size: 35px;
+    top: 0px
+    display: block;
+    text-align: center;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:15px;
+}
+
+.box-2{
+    background-image: url(img/webOisu.jpg);
+    width: 100%;
+    height: 0;
+    padding-top: 36.5%;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+
+.kotak2 {
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    color: white;
+    width: 70%;
+    top: -380px;
+}
+
+.kotak2 p{
+    font-size: 27px;
+}
+
+.box-3{
+    background-color: transparent;
+    font-weight: lighter;
+    padding: 50px;
+    padding-top: 10px;
+}
+
+.kotak3{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+.kotak3 > div{
+    width: 35%;
+    background-color: transparent;
+    border-radius: 8px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.box-3 h6, h5{
+    margin: 10px;
+    padding: 0;
+    margin-bottom: 0;
+    font-weight: 0;
+}
+
+.kotak3 h6{
+    padding: 5px;
+    font-size: 20px;
+}
+
+.box-4{
+    background-color: #DE82AE;
+    font-weight: lighter;
+    padding: 50px;
+    padding-top: 10px;
+}
+
+.kotak4{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+.kotak4 > div{
+    width: 30%;
+    background-color: white;
+    border-radius: 8px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.kotak4 img{
+    vertical-align: middle;
+    padding: 10px;
+}
+
+.box-4 h6, h5{
+    margin: 10px;
+    padding: 0;
+    margin-bottom: 0;
+}
+
+.kotak4 h6{
+    font-size: 20px;
+}
+
+.box-5{
+    background-color: transparent;
+    font-weight: lighter;
+    padding: 50px;
+    padding-top: 10px;
+}
+
+.kotak5{
+    width: 80%;
+    margin-top: 20px;
+    background-color: white;
+    border-radius: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 10px;
+}
+
+.kotak5 img{
+    width: 100%;
+    height: auto;
+    margin-top: 0;
+}
+
+.box-5 h5{
+    margin: 10px;
+    padding: 0;
+    margin-bottom: 0;
+    text-align: center;
+}
+.kotak5 p{
+    font-size: 20px;
+    text-align: justify;
+}
+
+.kotak5 h6{
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+}
+
+#card{
+    width: 90%;
+    padding: 10px;
+}
+
+#card h6{
+    left: 20px;
+    position: relative;
+}
+
+.cont5{
+    display: flex;
+}
+
+
+.cont5-1{
+    padding: 10px;
+    margin-top: auto;
+    margin-bottom: auto;
+    vertical-align: middle;
+    width: 100%;
+}
+
+.cont5-2{
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 100%;
+}
+
+.cont5-1 img{
+    margin-top: 0;    
+}
+
+.box-6{
+    font-weight: lighter;
+    padding: 10px;
+    display: flex;
+}
+
+.kotak6{
+    align-items: flex-end;
+    width: 40%;
+    height: fit-content;
+    background-color: white;
+    border-radius: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 10px;
+}
+
+.kotak6 img{
+    width: 100%;
+    height: auto;
+}
+
+.kotak6 h6{
+    font-size: 25px;
+    margin: 0;
+}
+
+.kotak6 p{
+    font-size: 20px;
+    margin: 0;
+}
+
+footer {
+	width: 100%;
+	background-color: #B8366C;
+	position: relative;
+	bottom: 0;
+	height: 75px;
+	color: white; 
+	text-align: center; 
+	align-content: center;
+}
+
+footer h3{
+	position: relative; 
+	font-size: 15px; 
+	text-align: center; 
+	align-content: center; 
+	top: 32px;
+    bottom: auto;
+	vertical-align: middle;
+}
